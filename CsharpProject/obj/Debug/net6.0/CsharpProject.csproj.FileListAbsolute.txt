@@ -1,0 +1,15 @@
+/home/nikolai/Задачи/основной/CsharpProject/CsharpProject/bin/Debug/net6.0/CsharpProject
+/home/nikolai/Задачи/основной/CsharpProject/CsharpProject/bin/Debug/net6.0/CsharpProject.deps.json
+/home/nikolai/Задачи/основной/CsharpProject/CsharpProject/bin/Debug/net6.0/CsharpProject.runtimeconfig.json
+/home/nikolai/Задачи/основной/CsharpProject/CsharpProject/bin/Debug/net6.0/CsharpProject.dll
+/home/nikolai/Задачи/основной/CsharpProject/CsharpProject/bin/Debug/net6.0/ref/CsharpProject.dll
+/home/nikolai/Задачи/основной/CsharpProject/CsharpProject/bin/Debug/net6.0/CsharpProject.pdb
+/home/nikolai/Задачи/основной/CsharpProject/CsharpProject/obj/Debug/net6.0/CsharpProject.csproj.AssemblyReference.cache
+/home/nikolai/Задачи/основной/CsharpProject/CsharpProject/obj/Debug/net6.0/CsharpProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/nikolai/Задачи/основной/CsharpProject/CsharpProject/obj/Debug/net6.0/CsharpProject.AssemblyInfoInputs.cache
+/home/nikolai/Задачи/основной/CsharpProject/CsharpProject/obj/Debug/net6.0/CsharpProject.AssemblyInfo.cs
+/home/nikolai/Задачи/основной/CsharpProject/CsharpProject/obj/Debug/net6.0/CsharpProject.csproj.CoreCompileInputs.cache
+/home/nikolai/Задачи/основной/CsharpProject/CsharpProject/obj/Debug/net6.0/CsharpProject.dll
+/home/nikolai/Задачи/основной/CsharpProject/CsharpProject/obj/Debug/net6.0/ref/CsharpProject.dll
+/home/nikolai/Задачи/основной/CsharpProject/CsharpProject/obj/Debug/net6.0/CsharpProject.pdb
+/home/nikolai/Задачи/основной/CsharpProject/CsharpProject/obj/Debug/net6.0/CsharpProject.genruntimeconfig.cache
