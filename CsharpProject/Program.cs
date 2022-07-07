@@ -1,24 +1,31 @@
 ﻿
 public class Cycler <T>
 {
-    public List<T> array;
-    private int index = -1;
+    private List<T> array;
+    private int _index = -1;
 
-    public  Cycler (List<T>array)
+    public int Index
+    {
+        get {  return _index;  }
+
+        set
+        {
+            _index = value;
+
+            if (value >= array.Count)
+                _index = 0;
+        }
+    }
+
+    public Cycler(List<T> array)
     {
         this.array = array;
     }
 
-    public  T GetNext()
+    public T GetNext()
     {
-
-        index++;
-        int size = array.Count;
-        if (size == index)
-        {
-            index = index - size;
-        }
-        return array[index];
+        Index++;
+        return array[Index];
     }
 }
 public class Employee
