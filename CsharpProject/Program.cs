@@ -1,18 +1,19 @@
 ﻿
-public class Cycler
+public class Cycler <T>
 {
-    private string[] array;
+    public List<T> array;
     private int index = -1;
 
-    public  Cycler(string[] array)
+    public  Cycler (List<T>array)
     {
         this.array = array;
     }
 
-    public  string GetNext()
+    public  T GetNext()
     {
+
         index++;
-        int size = array.Length;
+        int size = array.Count;
         if (size == index)
         {
             index = index - size;
@@ -24,15 +25,32 @@ public class Employee
 {
     static void Main()
     {
-        string[] array = { "1", "2", "3" };
-         var cycler = new Cycler(array);
-         Console.WriteLine(cycler.GetNext());
-         Console.WriteLine(cycler.GetNext());
-         Console.WriteLine(cycler.GetNext());
-         Console.WriteLine(cycler.GetNext());
-         Console.WriteLine("-----------------------------------");
+        List<int>  listInt = new (){1,2,3};
+        List<string> listString = new() { "s", "q" };
+        List<char> listChar = new() { 'a', 'b' };
 
+        var numbers = new Cycler<int> (listInt);
+        var word = new Cycler<string>(listString );
+        var letter = new Cycler<char>(listChar);
+
+
+
+         Console.WriteLine(numbers .GetNext());
+         Console.WriteLine(numbers .GetNext());
+         Console.WriteLine(numbers .GetNext());
+         Console.WriteLine(numbers .GetNext());
+         Console.WriteLine("-----------------------------------");
+         Console.WriteLine(word.GetNext());
+         Console.WriteLine(word.GetNext());
+         Console.WriteLine(word.GetNext());
+         Console.WriteLine(word.GetNext());
+         Console.WriteLine("-----------------------------------");
+         Console.WriteLine(letter.GetNext());
+         Console.WriteLine(letter.GetNext());
+         Console.WriteLine(letter.GetNext());
+         Console.WriteLine(letter.GetNext());
     }
+
 
 }
 
