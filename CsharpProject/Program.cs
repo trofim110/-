@@ -37,7 +37,7 @@ public class Employee
         List<char> listChar = new() { 'a', 'b' };
 
         var numbers = new Cycler<int> (listInt);
-        var word = new Cycler<string>(listString );
+        var word = new Cycler<string>(listString);
         var letter = new Cycler<char>(listChar);
 
 
